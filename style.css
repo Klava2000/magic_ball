@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #068FFF;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#ball-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #EEEEEE;
+    position: absolute;
+    text-align: center;
+    margin-top: -280px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+#btn {
+    left: 25%;
+    margin-top: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #ball-image {
+        width: 300px;
+    }
+
+    #btn {
+        left: 15%;
+        margin-top: 50px;
+    }
+
+    #ball-text {
+        font-size: 10px;
+        margin-top: -180px;
+        margin-left: 110px;
+        position: absolute;
+    }
+}
+
+    
+
+
+
